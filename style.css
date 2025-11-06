@@ -1,3 +1,16 @@
 body{
-    background: linear-gradient(to left, rgb(207, 204, 204), rgb(36, 36, 36));
+    background-image: url(./img/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px){
+    body{
+        background-image: url(./img/fondo3.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
